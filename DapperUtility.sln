@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{68EEB72A-6D49-4B06-87C1-B54D028F897F}"
 	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		.travis.yml = .travis.yml
 		appveyor.yml = appveyor.yml
 		build.cake = build.cake
 		build.ps1 = build.ps1
@@ -36,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED5FDDBB-DA2F-43D0-80E9-CB151E67C8ED}
 	EndGlobalSection
 EndGlobal

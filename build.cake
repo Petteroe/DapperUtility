@@ -10,7 +10,7 @@ var trigger = Argument("trigger", "");
 
 var solutionFileName = "DapperUtility.sln";
 var nugetSource = "https://api.nuget.org/v3/index.json";
-var docsAssembly = $@"src\Faithlife.Utility.Dapper\bin\{configuration}\net45\Faithlife.Utility.Dapper.dll";
+var docsAssembly = $@"src\Faithlife.Utility.Dapper\bin\{configuration}\net6.0\Faithlife.Utility.Dapper.dll";
 var docsSourceUri = "https://github.com/Faithlife/DapperUtility/tree/master/src/Faithlife.Utility.Dapper";
 
 Task("Clean")

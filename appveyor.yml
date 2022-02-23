@@ -1,5 +1,5 @@
 version: '{build}'
-image: Visual Studio 2017
+image: Visual Studio 2022
 environment:
   NUGETAPIKEY:
     secure: hPo98uWApLeubFt4LvY7wXpLKExUDaQbtzn4qCKXTq2C4wH2H9K3dFusJDLMTaff

@@ -5,8 +5,8 @@ before_install:
   - sudo sh -c 'echo "deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotnet-release/ trusty main" > /etc/apt/sources.list.d/dotnetdev.list'
   - sudo apt-key adv --keyserver apt-mo.trafficmanager.net --recv-keys 417A0893
   - sudo apt-get update
-  - sudo apt-get install -y dotnet-dev-1.0.1
+  - sudo apt-get install -y net6.0
 
 script:
   - dotnet restore
-  - dotnet test tests/Faithlife.Utility.Dapper.Tests/Faithlife.Utility.Dapper.Tests.csproj -c Release -f netcoreapp1.1
+  - dotnet test tests/Faithlife.Utility.Dapper.Tests/Faithlife.Utility.Dapper.Tests.csproj -c Release -f net6.0
